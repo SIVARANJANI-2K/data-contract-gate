@@ -1,0 +1,4 @@
+order_id,customer_name,amount
+201,Meena,250.50
+202,Arun,not_a_number
+203,Priya,450.00
