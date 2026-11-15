@@ -57,3 +57,9 @@ jobs:
       - name: Run Python tests
         working-directory: Python-Engine
         run: python -m pytest -v tests/
+      - name: Run compatibility gate
+        working-directory: Python-Engine
+        run: |
+          python -m compatibility.ci_gate \
+            ci_contracts/orders/approved.json \
+            ci_contracts/orders/proposed.json

@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "amount": {
+            "type": "decimal",
+            "nullable": false,
+            "required": true
+        },
+        "order_id": {
+            "type": "integer",
+            "nullable": false,
+            "required": true
+        },
+        "customer_name": {
+            "type": "string",
+            "nullable": false,
+            "required": true
+        }
+    }
+}
